@@ -1,0 +1,515 @@
+stackbitVersion: ~0.3.0
+dataDir: ''
+ssgName: nextjs
+cmsName: git
+nodeVersion: 12
+models:
+  asset_manifest:
+    type: data
+    label: Asset Manifest
+    file: build/asset-manifest.json
+    fields:
+      - type: string
+        name: main.css
+        label: Main Css
+      - type: string
+        name: main.css.map
+        label: Main Css Map
+      - type: string
+        name: main.js
+        label: Main Js
+      - type: string
+        name: main.js.map
+        label: Main Js Map
+      - type: string
+        name: static/media/Avenir Next Demi Bold.otf
+        label: Static Media Avenir Next Demi Bold Otf
+      - type: string
+        name: static/media/Avenir Next Medium.otf
+        label: Static Media Avenir Next Medium Otf
+      - type: string
+        name: static/media/Avenir Next Regular.otf
+        label: Static Media Avenir Next Regular Otf
+      - type: string
+        name: static/media/Lato-Bold.ttf
+        label: Static Media Lato Bold Ttf
+      - type: string
+        name: static/media/Lato-Hairline.ttf
+        label: Static Media Lato Hairline Ttf
+      - type: string
+        name: static/media/Lato-Regular.ttf
+        label: Static Media Lato Regular Ttf
+      - type: image
+        name: static/media/account.svg
+        label: Static Media Account Svg
+      - type: image
+        name: static/media/add-wallets.svg
+        label: Static Media Add Wallets Svg
+      - type: image
+        name: static/media/analytics.svg
+        label: Static Media Analytics Svg
+      - type: image
+        name: static/media/api.svg
+        label: Static Media Api Svg
+      - type: image
+        name: static/media/arrow-left.svg
+        label: Static Media Arrow Left Svg
+      - type: image
+        name: static/media/bell.svg
+        label: Static Media Bell Svg
+      - type: image
+        name: static/media/blue_plus.svg
+        label: Static Media Blue Plus Svg
+      - type: image
+        name: static/media/close.svg
+        label: Static Media Close Svg
+      - type: image
+        name: static/media/close_bg.svg
+        label: Static Media Close Bg Svg
+      - type: image
+        name: static/media/cog.svg
+        label: Static Media Cog Svg
+      - type: image
+        name: static/media/colomn.svg
+        label: Static Media Colomn Svg
+      - type: image
+        name: static/media/dep.svg
+        label: Static Media Dep Svg
+      - type: image
+        name: static/media/dollor.svg
+        label: Static Media Dollor Svg
+      - type: image
+        name: static/media/help.svg
+        label: Static Media Help Svg
+      - type: image
+        name: static/media/home.svg
+        label: Static Media Home Svg
+      - type: image
+        name: static/media/icon-my-orders.svg
+        label: Static Media Icon My Orders Svg
+      - type: image
+        name: static/media/icon-wallets.svg
+        label: Static Media Icon Wallets Svg
+      - type: image
+        name: static/media/icons-crypto-1x.png
+        label: Static Media Icons Crypto 1 X Png
+      - type: image
+        name: static/media/interface.svg
+        label: Static Media Interface Svg
+      - type: image
+        name: static/media/like.svg
+        label: Static Media Like Svg
+      - type: image
+        name: static/media/logout.svg
+        label: Static Media Logout Svg
+      - type: image
+        name: static/media/message.svg
+        label: Static Media Message Svg
+      - type: image
+        name: static/media/moon.svg
+        label: Static Media Moon Svg
+      - type: image
+        name: static/media/nav_wallet.svg
+        label: Static Media Nav Wallet Svg
+      - type: image
+        name: static/media/noun-1198083-cc.svg
+        label: Static Media Noun 1198083 Cc Svg
+      - type: image
+        name: static/media/noun-540071-cc.svg
+        label: Static Media Noun 540071 Cc Svg
+      - type: image
+        name: static/media/noun-553134-cc.svg
+        label: Static Media Noun 553134 Cc Svg
+      - type: image
+        name: static/media/noun-993426-cc.svg
+        label: Static Media Noun 993426 Cc Svg
+      - type: image
+        name: static/media/plus.svg
+        label: Static Media Plus Svg
+      - type: image
+        name: static/media/plus_big.svg
+        label: Static Media Plus Big Svg
+      - type: image
+        name: static/media/raw_down.svg
+        label: Static Media Raw Down Svg
+      - type: image
+        name: static/media/raw_up.svg
+        label: Static Media Raw Up Svg
+      - type: image
+        name: static/media/reports.svg
+        label: Static Media Reports Svg
+      - type: image
+        name: static/media/security.svg
+        label: Static Media Security Svg
+      - type: image
+        name: static/media/share.svg
+        label: Static Media Share Svg
+      - type: image
+        name: static/media/share2.svg
+        label: Static Media Share 2 Svg
+      - type: image
+        name: static/media/signout.svg
+        label: Static Media Signout Svg
+      - type: image
+        name: static/media/sun.svg
+        label: Static Media Sun Svg
+      - type: image
+        name: static/media/tile.svg
+        label: Static Media Tile Svg
+      - type: image
+        name: static/media/traders.svg
+        label: Static Media Traders Svg
+      - type: image
+        name: static/media/tran.svg
+        label: Static Media Tran Svg
+      - type: image
+        name: static/media/verifications.svg
+        label: Static Media Verifications Svg
+      - type: image
+        name: static/media/wallet.svg
+        label: Static Media Wallet Svg
+      - type: image
+        name: static/media/white_account.svg
+        label: Static Media White Account Svg
+      - type: image
+        name: static/media/white_add_message.svg
+        label: Static Media White Add Message Svg
+      - type: image
+        name: static/media/white_analytics.svg
+        label: Static Media White Analytics Svg
+      - type: image
+        name: static/media/white_api.svg
+        label: Static Media White Api Svg
+      - type: image
+        name: static/media/white_bell.svg
+        label: Static Media White Bell Svg
+      - type: image
+        name: static/media/white_bg-signout.svg
+        label: Static Media White Bg Signout Svg
+      - type: image
+        name: static/media/white_close_bg.svg
+        label: Static Media White Close Bg Svg
+      - type: image
+        name: static/media/white_cog.svg
+        label: Static Media White Cog Svg
+      - type: image
+        name: static/media/white_colomn.svg
+        label: Static Media White Colomn Svg
+      - type: image
+        name: static/media/white_help.svg
+        label: Static Media White Help Svg
+      - type: image
+        name: static/media/white_interface.svg
+        label: Static Media White Interface Svg
+      - type: image
+        name: static/media/white_logout.svg
+        label: Static Media White Logout Svg
+      - type: image
+        name: static/media/white_nav_wallet.svg
+        label: Static Media White Nav Wallet Svg
+      - type: image
+        name: static/media/white_noun-1198083-cc.svg
+        label: Static Media White Noun 1198083 Cc Svg
+      - type: image
+        name: static/media/white_noun-540071-cc.svg
+        label: Static Media White Noun 540071 Cc Svg
+      - type: image
+        name: static/media/white_noun-553134-cc.svg
+        label: Static Media White Noun 553134 Cc Svg
+      - type: image
+        name: static/media/white_noun-993426-cc.svg
+        label: Static Media White Noun 993426 Cc Svg
+      - type: image
+        name: static/media/white_plus_big.svg
+        label: Static Media White Plus Big Svg
+      - type: image
+        name: static/media/white_read.svg
+        label: Static Media White Read Svg
+      - type: image
+        name: static/media/white_reports.svg
+        label: Static Media White Reports Svg
+      - type: image
+        name: static/media/white_security.svg
+        label: Static Media White Security Svg
+      - type: image
+        name: static/media/white_tile.svg
+        label: Static Media White Tile Svg
+      - type: image
+        name: static/media/white_traders.svg
+        label: Static Media White Traders Svg
+      - type: image
+        name: static/media/white_verifications.svg
+        label: Static Media White Verifications Svg
+      - type: image
+        name: static/media/white_wallet.svg
+        label: Static Media White Wallet Svg
+      - type: image
+        name: static/media/white_wallet_1.svg
+        label: Static Media White Wallet 1 Svg
+      - type: image
+        name: static/media/white_wallet_add.svg
+        label: Static Media White Wallet Add Svg
+      - type: image
+        name: static/media/wit.svg
+        label: Static Media Wit Svg
+      - type: image
+        name: static/media/wtihe_cog.svg
+        label: Static Media Wtihe Cog Svg
+  tsconfig:
+    type: data
+    label: Tsconfig
+    file: tradingview/public/datafeeds/udf/tsconfig.json
+    fields:
+      - type: object
+        name: compilerOptions
+        label: Compiler Options
+        fields:
+          - type: string
+            name: baseUrl
+            label: Base Url
+          - type: boolean
+            name: importHelpers
+            label: Import Helpers
+          - type: list
+            name: lib
+            label: Lib
+            items:
+              type: string
+          - type: string
+            name: module
+            label: Module
+          - type: string
+            name: moduleResolution
+            label: Module Resolution
+          - type: boolean
+            name: noEmitOnError
+            label: No Emit On Error
+          - type: boolean
+            name: noFallthroughCasesInSwitch
+            label: No Fallthrough Cases In Switch
+          - type: boolean
+            name: noImplicitReturns
+            label: No Implicit Returns
+          - type: boolean
+            name: noUnusedLocals
+            label: No Unused Locals
+          - type: string
+            name: outDir
+            label: Out Dir
+          - type: boolean
+            name: sourceMap
+            label: Source Map
+          - type: boolean
+            name: strict
+            label: Strict
+          - type: string
+            name: target
+            label: Target
+      - type: list
+        name: include
+        label: Include
+        items:
+          type: string
+  tsconfig_1:
+    type: data
+    label: Tsconfig 1
+    file: tradingview/tsconfig.json
+    fields:
+      - type: object
+        name: compilerOptions
+        label: Compiler Options
+        fields:
+          - type: string
+            name: baseUrl
+            label: Base Url
+          - type: string
+            name: outDir
+            label: Out Dir
+          - type: string
+            name: module
+            label: Module
+          - type: string
+            name: target
+            label: Target
+          - type: list
+            name: lib
+            label: Lib
+            items:
+              type: string
+          - type: boolean
+            name: sourceMap
+            label: Source Map
+          - type: boolean
+            name: allowJs
+            label: Allow Js
+          - type: string
+            name: jsx
+            label: Jsx
+          - type: string
+            name: moduleResolution
+            label: Module Resolution
+          - type: string
+            name: rootDir
+            label: Root Dir
+          - type: boolean
+            name: forceConsistentCasingInFileNames
+            label: Force Consistent Casing In File Names
+          - type: boolean
+            name: noImplicitReturns
+            label: No Implicit Returns
+          - type: boolean
+            name: noImplicitThis
+            label: No Implicit This
+          - type: boolean
+            name: noImplicitAny
+            label: No Implicit Any
+          - type: boolean
+            name: strictNullChecks
+            label: Strict Null Checks
+          - type: boolean
+            name: suppressImplicitAnyIndexErrors
+            label: Suppress Implicit Any Index Errors
+          - type: boolean
+            name: noUnusedLocals
+            label: No Unused Locals
+      - type: list
+        name: exclude
+        label: Exclude
+        items:
+          type: string
+  tslint:
+    type: data
+    label: Tslint
+    file: tradingview/tslint.json
+    fields:
+      - type: list
+        name: extends
+        label: Extends
+        items:
+          type: string
+      - type: object
+        name: rules
+        label: Rules
+        fields:
+          - type: boolean
+            name: ban
+            label: Ban
+          - type: boolean
+            name: class-name
+            label: Class Name
+          - type: boolean
+            name: curly
+            label: Curly
+          - type: boolean
+            name: eofline
+            label: Eofline
+          - type: boolean
+            name: forin
+            label: Forin
+          - type: boolean
+            name: interface-name
+            label: Interface Name
+          - type: boolean
+            name: jsdoc-format
+            label: Jsdoc Format
+          - type: boolean
+            name: label-position
+            label: Label Position
+          - type: boolean
+            name: max-line-length
+            label: Max Line Length
+          - type: boolean
+            name: no-any
+            label: No Any
+          - type: boolean
+            name: no-arg
+            label: No Arg
+          - type: boolean
+            name: no-bitwise
+            label: No Bitwise
+          - type: boolean
+            name: no-console
+            label: No Console
+          - type: boolean
+            name: no-consecutive-blank-lines
+            label: No Consecutive Blank Lines
+          - type: boolean
+            name: no-construct
+            label: No Construct
+          - type: boolean
+            name: no-debugger
+            label: No Debugger
+          - type: boolean
+            name: no-duplicate-variable
+            label: No Duplicate Variable
+          - type: boolean
+            name: no-empty
+            label: No Empty
+          - type: boolean
+            name: no-eval
+            label: No Eval
+          - type: boolean
+            name: no-shadowed-variable
+            label: No Shadowed Variable
+          - type: boolean
+            name: no-string-literal
+            label: No String Literal
+          - type: boolean
+            name: no-switch-case-fall-through
+            label: No Switch Case Fall Through
+          - type: boolean
+            name: no-trailing-whitespace
+            label: No Trailing Whitespace
+          - type: boolean
+            name: no-unused-expression
+            label: No Unused Expression
+          - type: boolean
+            name: no-use-before-declare
+            label: No Use Before Declare
+          - type: boolean
+            name: radix
+            label: Radix
+          - type: boolean
+            name: switch-default
+            label: Switch Default
+          - type: list
+            name: trailing-comma
+            label: Trailing Comma
+            items:
+              type: boolean
+          - type: boolean
+            name: jsx-alignment
+            label: Jsx Alignment
+          - type: boolean
+            name: jsx-ban-props
+            label: Jsx Ban Props
+          - type: boolean
+            name: jsx-boolean-value
+            label: Jsx Boolean Value
+          - type: boolean
+            name: jsx-equals-spacing
+            label: Jsx Equals Spacing
+          - type: boolean
+            name: jsx-key
+            label: Jsx Key
+          - type: boolean
+            name: jsx-no-bind
+            label: Jsx No Bind
+          - type: boolean
+            name: jsx-no-lambda
+            label: Jsx No Lambda
+          - type: boolean
+            name: jsx-no-multiline-js
+            label: Jsx No Multiline Js
+          - type: boolean
+            name: jsx-no-string-ref
+            label: Jsx No String Ref
+          - type: boolean
+            name: jsx-self-close
+            label: Jsx Self Close
+          - type: boolean
+            name: jsx-use-translation-function
+            label: Jsx Use Translation Function
+          - type: boolean
+            name: jsx-wrap-multiline
+            label: Jsx Wrap Multiline
